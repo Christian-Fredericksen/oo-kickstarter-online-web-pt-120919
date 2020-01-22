@@ -6,5 +6,9 @@ class Project
     @title = title
     @backers = []
   end
+  
+  def backers
+    @backers
+  end
     
 end
